@@ -134,20 +134,26 @@ h2 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.95rem 1.25rem;
-  border-radius: 14px;
+  padding: 1rem 1.3rem;
+  border-radius: 16px;
   font-weight: 700;
   border: 1px solid var(--line);
-  transition: 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
 }
-.btn:hover { transform: translateY(-2px) scale(1.02); }
+
+.btn:hover {
+  transform: translateY(-2px) scale(1.02);
+}
+
 .btn-primary {
-  background: linear-gradient(135deg, var(--accent), #5c78f5);
+  background: linear-gradient(135deg, var(--accent), #5877f3);
   color: white;
   border: none;
+  box-shadow: 0 12px 25px rgba(111,140,255,0.28);
 }
+
 .btn-secondary {
-  background: var(--panel);
+  background: rgba(255,255,255,0.02);
   color: var(--text);
 }
 .hero-badges, .chip-wrap {
