@@ -187,16 +187,17 @@ h2 {
   transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
 }
 
-.profile-card:hover,
-.stat-card:hover,
-.info-card:hover,
-.timeline-card:hover,
-.stack-box:hover,
-.contact-box:hover,
-.win-item:hover {
-  transform: translateY(-5px);
-  border-color: rgba(111,140,255,0.28);
-  box-shadow: 0 22px 55px rgba(0,0,0,0.34);
+.profile-card::before,
+.info-card::before,
+.stack-box::before,
+.contact-box::before {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  margin-bottom: 1.2rem;
 }
 .profile-card {
   padding: 1.5rem;
