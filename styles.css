@@ -326,12 +326,14 @@ body.light .alt-section { background: rgba(53, 93, 245, 0.03); }
 .hidden { display: none !important; }
 
 .profile-photo {
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
-  object-position: center 15%;
-  border-radius: 20px;
+  object-position: center 15%; /* moves focus slightly up to your face */
+  border-radius: 50%;
+  display: block;
   margin: 0 auto 1.2rem;
+  border: 3px solid rgba(255,255,255,0.1);
 }
 
 @media (max-width: 920px) {
