@@ -165,6 +165,17 @@ h2 {
   background: var(--panel);
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.profile-card:hover,
+.stat-card:hover,
+.info-card:hover,
+.timeline-card:hover,
+.stack-box:hover,
+.contact-box:hover,
+.win-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.25);
 }
 .profile-card {
   padding: 1.5rem;
