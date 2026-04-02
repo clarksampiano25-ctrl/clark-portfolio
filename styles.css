@@ -139,7 +139,7 @@ h2 {
   border: 1px solid var(--line);
   transition: 0.25s ease;
 }
-.btn:hover { transform: translateY(-2px); }
+.btn:hover { transform: translateY(-2px) scale(1.02); }
 .btn-primary {
   background: linear-gradient(135deg, var(--accent), #5c78f5);
   color: white;
