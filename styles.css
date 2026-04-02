@@ -88,11 +88,18 @@ body.light .site-header { background: rgba(245, 248, 255, 0.72); }
 }
 
 .hero { padding: 5rem 0 2rem; }
-.hero-grid, .section-grid, .two-col, .contact-box {
+.hero-grid, .two-col, .contact-box {
   display: grid;
   grid-template-columns: 1.4fr 1fr;
   gap: 2rem;
   align-items: center;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 2rem;
+  align-items: start;
 }
 .eyebrow, .section-label {
   color: var(--accent-2);
