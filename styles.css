@@ -183,7 +183,7 @@ h2 {
 }
 .profile-card ul { padding-left: 1.1rem; color: var(--muted); }
 
-.stats { padding: 1rem 0 2rem; }
+.stats { padding: 1rem 0 3rem; }
 .stats-grid, .card-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -201,7 +201,7 @@ h2 {
 }
 .stat-card span { color: var(--muted); }
 
-.section { padding: 4.5rem 0; }
+.section { padding: 5rem 0; }
 .alt-section { background: rgba(255,255,255,0.02); }
 body.light .alt-section { background: rgba(53, 93, 245, 0.03); }
 .card-grid {
