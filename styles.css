@@ -308,13 +308,13 @@ body.light .alt-section { background: rgba(53, 93, 245, 0.03); }
 .hidden { display: none !important; }
 
 .profile-photo {
-  width: 180px;
-  height: 180px;
+  width: 140px;
+  height: 140px;
   object-fit: cover;
   object-position: center 20%;
   border-radius: 50%;
   display: block;
-  margin: 0 0 1rem 0;
+  margin: 0 auto 1rem;
   border: 3px solid rgba(255,255,255,0.1);
 }
 
