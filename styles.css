@@ -170,11 +170,13 @@ h2 {
 .stack-box,
 .contact-box,
 .win-item {
-  background: var(--panel);
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  background: linear-gradient(180deg, rgba(16, 26, 52, 0.9), rgba(10, 18, 38, 0.9));
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.28);
+  backdrop-filter: blur(10px);
+  transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
 }
+
 .profile-card:hover,
 .stat-card:hover,
 .info-card:hover,
@@ -182,8 +184,9 @@ h2 {
 .stack-box:hover,
 .contact-box:hover,
 .win-item:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 16px 40px rgba(0,0,0,0.25);
+  transform: translateY(-5px);
+  border-color: rgba(111,140,255,0.28);
+  box-shadow: 0 22px 55px rgba(0,0,0,0.34);
 }
 .profile-card {
   padding: 1.5rem;
