@@ -96,13 +96,16 @@ body.light .site-header { background: rgba(245, 248, 255, 0.72); }
 }
 
 .contact-box {
-  display: grid;
-  grid-template-columns: minmax(0, 720px) 1fr;
-  gap: 2rem;
+  display: flex;
+  justify-content: center;
   width: 100%;
   padding: 2.5rem;
   border-radius: 28px;
-  align-items: center;
+}
+
+.contact-copy {
+  width: 100%;
+  max-width: 760px;
 }
 .contact-copy {
   max-width: 720px;
