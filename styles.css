@@ -116,9 +116,11 @@ body.light .site-header { background: rgba(245, 248, 255, 0.72); }
   margin-bottom: 0.75rem;
 }
 
-.contact-box p {
-  max-width: 620px;
-  margin: 0;
+.contact-box {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  border-radius: 28px;
 }
 
 .contact-actions {
