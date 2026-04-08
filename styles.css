@@ -97,11 +97,29 @@ body.light .site-header { background: rgba(245, 248, 255, 0.72); }
 
 .contact-box {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem;
+  grid-template-columns: minmax(0, 720px) 1fr;
+  gap: 2rem;
   width: 100%;
   padding: 2.5rem;
   border-radius: 28px;
+  align-items: center;
+}
+.contact-copy {
+  max-width: 720px;
+}
+
+.contact-box h2 {
+  max-width: 700px;
+  margin-bottom: 0.75rem;
+}
+
+.contact-box p {
+  max-width: 620px;
+  margin: 0;
+}
+
+.contact-actions {
+  margin-top: 1.25rem;
 }
 .contact-box h2 {
   max-width: 860px;
