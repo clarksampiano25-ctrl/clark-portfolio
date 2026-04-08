@@ -338,10 +338,6 @@ body.light .alt-section { background: rgba(53, 93, 245, 0.03); }
   color: var(--accent-2);
 }
 
-.contact-box {
-  padding: 2rem;
-  border-radius: 28px;
-}
 .site-footer {
   border-top: 1px solid var(--line);
   color: var(--muted);
