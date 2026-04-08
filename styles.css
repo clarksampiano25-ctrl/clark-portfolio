@@ -103,7 +103,19 @@ body.light .site-header { background: rgba(245, 248, 255, 0.72); }
   padding: 2.5rem;
   border-radius: 28px;
 }
+.contact-box h2 {
+  max-width: 980px;
+  margin-bottom: 0.5rem;
+}
 
+.contact-box p {
+  max-width: 620px;
+  margin: 0;
+}
+
+.contact-actions {
+  margin-top: 1rem;
+}
 .section-grid {
   display: grid;
   grid-template-columns: 1.4fr 1fr;
