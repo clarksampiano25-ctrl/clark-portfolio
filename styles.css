@@ -337,7 +337,13 @@ body.light .alt-section { background: rgba(53, 93, 245, 0.03); }
   font-weight: 800;
   color: var(--accent-2);
 }
+.contact-box h2 {
+  margin-bottom: 0.75rem;
+}
 
+.contact-box p {
+  max-width: 760px;
+}
 .site-footer {
   border-top: 1px solid var(--line);
   color: var(--muted);
